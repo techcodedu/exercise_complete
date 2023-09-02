@@ -1,0 +1,75 @@
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Navigation */
+  #navbar a {
+    display: block; /* Nav links will stack vertically */
+    text-align: center; /* Center the text */
+  }
+  /* Cards */
+  .card {
+    width: 45%; /* Make cards slightly larger, 2 cards per row */
+    margin-bottom: 20px; /* Add space below each card */
+  }
+
+  /* About Section */
+  .about-img,
+  .about-content {
+    width: 100%; /* Both the image and the content will take full width */
+    padding: 0 5%; /* Add some padding */
+    margin-bottom: 20px; /* Add space below each section */
+  }
+
+  /* Testimonials */
+  .testimonial-img img {
+    width: 150px; /* Reduce image size a bit */
+  }
+}
+
+/* smartphone */
+
+@media (max-width: 480px) {
+  /* Navigation */
+
+  #navbar .nav-content {
+    text-align: center;
+  }
+
+  #navbar a {
+    float: none;
+    display: inline-block; /* makes the links inline but still respect padding and margin */
+  }
+  #navbar a {
+    padding: 20px; /* Reduce padding for nav links */
+  }
+
+  /* Cards */
+  .card {
+    width: 100%; /* Cards will stack, taking the full width */
+    margin-bottom: 20px; /* Add space below each card */
+  }
+
+  /* Hero Section */
+  #hero h1 {
+    font-size: 2em; /* Reduce font size for the title */
+  }
+
+  #hero p {
+    font-size: 0.9em; /* Reduce font size for the subtitle */
+  }
+
+  /* About Section */
+  .about-img,
+  .about-content {
+    padding: 0 2.5%; /* Adjust padding */
+  }
+
+  /* Testimonials */
+  .testimonial-img img {
+    width: 100px; /* Reduce image size further */
+  }
+
+  /* Footer */
+  .fa-icon {
+    font-size: 20px; /* Slightly reduce the icon size */
+    margin: 0 5px; /* Reduce space between icons */
+  }
+}
